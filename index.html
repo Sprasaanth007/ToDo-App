@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ToDO App</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <div class="container">
+  <h1>ToDo App</h1>
+
+  <div class="guide">
+   <p>Enter your ToDo tasks in the space provided and either click the button or press Enter on your keyboard to add tasks</p>
+   <p>Single click on the tasks to mark completed tasks and double click on the tasks to delete them</p>
+  </div>
+
+  <div class="input">
+   <input type="text" id="item">
+   <button onclick="addItem()" type="submit">Add</button>
+  </div>
+
+
+  <div class="todos">
+   <!--To add the todo list items here-->
+   <ul id="todoItems">
+   </ul>
+  </div>
+ </div>
+ 
+
+ <script src="script.js"></script>
+</body>
+</html>
